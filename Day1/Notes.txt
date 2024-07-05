@@ -1,0 +1,35 @@
+What is emmet?
+The emmet is the shorcut for some block for prewritten code : Eg: Html Boiler Plate code
+
+Difference between a Library and Framework?
+
+The main Difference between Library and Framework are :
+
+Framework : It is some prewritten code used for our project where which we want to add Framework like React
+Library : It is full set of code which applies direclty to projects
+
+What is CDN? Why do we use it?
+
+Content delivery Network is the method of group of servers sharing the reasources with user which are nearly located!
+
+
+Why is React known as React?
+
+Reacts acts quickly or we can say it changes quickly with state and data!
+
+What is crossorigin in script tag?
+
+used when a script on one domain is trying to fetch or interact with resources from another domain.
+
+
+What is diference between React and ReactDOM
+
+React is an js Library used for the building user interface and React Dom will work on the dom whenever the state changes dom will change and give result accordingly
+
+What is difference between react.development.js and react.production.js files via CDN?
+
+The development version includes extra warnings about common mistakes, whereas the production version includes extra performance optimizations and strips all error messages.
+
+
+
+
