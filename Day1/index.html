@@ -7,7 +7,14 @@
 </head>
 <body>
     <div id="root">
-        <h1>Hello world</h1>
+        
     </div>
+
+    <script>
+        const h1 = document.createElement("h1");
+        h1.innerText = "hello";
+
+        const root = document.getElementById("root").appendChild(h1);
+    </script>
 </body>
 </html>
