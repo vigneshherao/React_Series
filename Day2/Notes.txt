@@ -1,0 +1,63 @@
+
+Install---
+npm intall -D parcel
+to execute npx parcel index.html
+npm install React
+npm install React_DOM
+
+npm build parcel index.html
+
+Remove main.js in package.json
+
+
+
+is React only the one using making fast?
+
+NO There are many packages which makes react web application fast.
+
+
+What are the two dependcies or package?
+
+Dev dependency - IT is generally reuired for development
+Normal dependency - It is used for production also
+
+
+what is caret symbol in dependices and tilt symbol in dependencies?
+
+This caret will be updating all the minor versions including small patches
+THe tilt will only update the major update 
+
+
+what is package.json and package.lock.json?
+
+package.json will have version of a package which we have installed for our project! it will have minor updates changes 
+package.lock.json will have the exact version in that lock json. It will have exact version
+
+
+what is node modules?
+Node modules is like database which hold the data of the package and package.json is a configuration.
+Transitive dependency is the it will have dependencies inside dependices like we install parcel it will have some other dependencies and other will have other dependices
+
+what is npx parcel index.html?
+It will execute the parcel with file index.html
+
+why npm react is better than cdn react?
+
+Becauase we are importing react from other resource that may loose future case 
+And also while it has updates means we have to change the links again
+
+
+what are the features of parcel?
+hot relaod,
+Dev building,
+local server,
+parcel cache,
+file tracking system,
+Image optimisation
+Bundling
+Https
+Tree Shaking- Remove unused code 
+
+
+what is dist folder?
+Dist folder is a folder where it actally hold the bundled data and ready for the production
