@@ -1,0 +1,33 @@
+1)what is jsx?
+
+JSX is an javascript xml, it is like html syntax which babel will transplies the code and convert into react element;
+It is not a part of React. React apps can be built even
+without JSX but the code will become very hard to read.
+It is not HTML inside JavaScript.
+JavaScript engine cannot understand JSX as it only
+understands ECMAScript
+
+
+2)What is Superpowers of JSX?
+
+Superpowers of jsx is an very easy to use, Html like syntax, user understandale code
+
+
+3)Role of type attribute in script tag? What options can I use there?
+
+type attribute will understand the js file from which is importing the data
+
+4) {TitleComponent} this we are direclty inserting the javascript in react
+ {<TitleComponent/>} This we are inserting an component 
+{<TitleComponent></TitleComponent>}  This is also called another way of component inserting
+
+5)what is react functional component?
+
+React functional component is an normal js function which returns jsx!
+
+6)Advantages of using JSX.
+1) Sanitizes the data
+2)3)Make cod readable
+Makes code simple and elegant
+4) Show more useful errors and warnings
+5) JSX prevents code injections (attacks)
