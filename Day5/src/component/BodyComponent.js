@@ -1,12 +1,12 @@
 import React from 'react'
 import OffersComponent from './OffersComponent'
-import SubCategories from './SubCategories'
 import Categories from './Categories'
+import { Mega_Offer } from '../utils/constants'
 const BodyComponent = () => {
   return (
     <div>
         <div className='savings'>
-            <img src="https://mcprod.sparindia.com/media/wysiwyg/72-hours/7days-Mahasavings.svg" alt="" />
+            <img src={Mega_Offer} alt="" />
         </div>
         <OffersComponent/>
         <Categories/>
