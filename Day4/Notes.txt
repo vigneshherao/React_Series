@@ -1,0 +1,46 @@
+Is JSX mandatory for React?
+
+It is not mandatory but JSX makes code easy and give many advantages for coders. You can also write react without
+using jsx. with core react.
+
+Is ES6 mandatory for React?
+
+This is javascript engine which makes the code understaning purpose 
+
+
+What is <React.Fragment></React.Fragment> and <></> ?
+
+
+This is when we want a group element using without parents or extra node! Next will no necceasey to add div it will 
+give the free with out creating div nodes into dom
+
+Why we need keys in React? When do we need keys in React?
+ 
+we need to keys while maping the object because react can easily undertands the nodes which should be updated and renderd
+without using it is not possible to render one node it will render all the nodes which is unneccasry
+
+
+Can we use index as keys in React?
+
+if we have no other optiion in map there is no key then we can but it is not a good solution
+
+
+What is props in React? 
+
+Props is ways of passing the data to another components
+
+What is a Config Driven UI ?
+
+Confict driven ui is can api data which makes ui changalabel on differnt causees.
+based on the data given it will work on ui
+
+It is a user Interface that is built and configured using a
+declaration configuration file or data structure, rather than
+being hardcoded.
+Config is the data coming from the api which keeps on changing
+according to different factors like user, location, etc. 
+
+
+
+
+
