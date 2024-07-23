@@ -1,10 +1,10 @@
 import React from "react";
-import { Offer } from "../utils/constants";
 
-const SubOfferCard = () => {
+
+const SubOfferCard = ({offerImage}) => {
   return (
     <div className="offer-card">
-      <img src={Offer} alt="offers" />
+      <img src={offerImage} alt="offers" />
     </div>
   );
 };
