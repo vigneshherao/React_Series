@@ -1,1 +1,21 @@
 Put capital letter snake case for constant
+
+
+What is the difference between Named Export, Default export and * as export?
+
+The Named Export means when we have the so many components that time we will export it as Named components
+Default Export means Which it has only one export file
+* all
+
+
+
+What are React Hooks?
+React Hooks are normal javascript functions which has superpowers in it
+
+Why do we need a useState Hook?
+
+For the state variable! If we have an state which render's the component which works on Reconsillation process and also react has the virtaul dom which stores nodes
+when the state variable changes react fiber will find the changes using diff algorthim and it re renders the component!
+
+
+
