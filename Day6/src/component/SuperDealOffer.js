@@ -20,7 +20,10 @@ const SuperDealOffer = () => {
           </div>
         <div className="search-btn">
             <button onClick={()=>{
-
+              const filtertedSearchItems = catObj.filter((item)=>{
+                return item.name.toLowerCase().includes(searchBtn.toLowerCase());
+              });
+              setCatObjs(filtertedSearchItems);
             }}>Submit</button>
         </div>
         </div>

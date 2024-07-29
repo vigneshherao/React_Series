@@ -32,6 +32,27 @@ updated value. So, in essence, we're not updating ‘ reactBtn '; instead, React
 creates a new one with the modified value each time the state changes.
 This is the beauty of React.
 
+● What is Optional Chaining?
+
+Optional Chaining is used for the data if the data not exit it will return empty ! Otherwise if we did not add means it will cause error
+
+● What is Shimmer UI?
+
+Shimmer ui is an component which used for the template for better ui expierence
+
+
+● What is Conditional Rendering, explain with a code example
+
+if the state vairbale is empty we can render the shimmer component for eg! This is called Conditional rendering else render normal data
+
+● What is async and await?
+
+async makes a function return a Promise. await makes a function wait for a Promise.
+
+● What is the use of `const json = await data.json();` in getRestaurants()
+
+
+we are waiting for the Promise ! we are changing the data into JavaScript object using json();
 
 
 
