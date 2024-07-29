@@ -6,9 +6,8 @@ const SuperDealOffer = () => {
 
 
   const [catObjs,setCatObjs] = useState(catObj);
+  const [items,setItems] = useState(catObj);
   const [searchBtn, setSearchBtn] = useState("");
-
-  console.log(searchBtn)
 
 
   return (
@@ -20,7 +19,7 @@ const SuperDealOffer = () => {
           </div>
         <div className="search-btn">
             <button onClick={()=>{
-              const filtertedSearchItems = catObj.filter((item)=>{
+              const filtertedSearchItems = items.filter((item)=>{
                 return item.name.toLowerCase().includes(searchBtn.toLowerCase());
               });
               setCatObjs(filtertedSearchItems);
