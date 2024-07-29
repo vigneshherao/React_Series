@@ -6,13 +6,24 @@ const SuperDealOffer = () => {
 
 
   const [catObjs,setCatObjs] = useState(catObj);
+  const [searchBtn, setSearchBtn] = useState("");
 
-
+  console.log(searchBtn)
 
 
   return (
     <div>
       <div className="super-background">
+        <div className="input-search">
+          <div>
+          <input className="searchInput" type="text" value={searchBtn} onChange={(e)=>{setSearchBtn(e.target.value)}}></input>
+          </div>
+        <div className="search-btn">
+            <button onClick={()=>{
+
+            }}>Submit</button>
+        </div>
+        </div>
         <div className="super-cat">
           <div className="super-cat-img" onClick={()=>{
             const filterproduct =catObjs.filter((product)=>{
@@ -51,7 +62,6 @@ const SuperDealOffer = () => {
             />
           </div>
         </div>
-
         <div className="product-container">
           {catObjs.map((porduct) => {
             return <Product productDetail={porduct} />;

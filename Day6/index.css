@@ -153,3 +153,23 @@
     width: 350px;
     height: 100px;
 }
+
+.lgn-btn{
+    background-color: gainsboro;
+    font-weight: 500;
+}
+.input-search{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.searchInput{
+    padding: 5px;
+    border: 1px solid gray;
+}
+.search-btn button{
+    padding: 6px;
+    border: none;
+    background-color: green;
+    font-weight: 600;
+}
