@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import HeadComponent from "./component/HeadComponent";
 import BodyComponent from "./component/BodyComponent";
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import Element from "./component/Element";
+import Error from "./component/Error";
 
 
 //Creating react element with react core
@@ -28,7 +31,20 @@ const AppComponent = () =>{
     )
 }
 
+const appRouter = createBrowserRouter(
+    [
+        {
+            path:"/",
+            element:<AppComponent/>,
+            errorElement:<Error/>
+
+        },
+        {
+            path:"/login",
+            element:<Element/>
+        }
+    ]
+)
 
 
-
-root.render(<AppComponent/>);
+root.render(<RouterProvider router={appRouter}/>);
