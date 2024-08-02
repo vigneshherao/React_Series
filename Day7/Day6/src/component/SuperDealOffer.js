@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Product from "./Product";
 import { catObj } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 const SuperDealOffer = () => {
 
@@ -66,7 +67,8 @@ const SuperDealOffer = () => {
         </div>
         <div className="product-container">
           {catObjs.map((porduct) => {
-            return <Product productDetail={porduct} />;
+            console.log(porduct)
+            return <Link to={"/product/"+porduct.id} key={porduct.id}><Product productDetail={porduct} /></Link>;
           })}
         </div>
       </div>

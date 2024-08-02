@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Element from "./component/Element";
 import Error from "./component/Error";
 import { Outlet } from "react-router-dom";
+import ProductDetail from "./component/ProductDetail";
 
 //Creating react element with react core
 const heading = React.createElement("h1", {}, "Hello This is vignesh");
@@ -41,6 +42,11 @@ const appRouter = createBrowserRouter([
       {
         path: "/login",
         element: <Element />,
+        errorElement: <Error />,
+      },
+      {
+        path: "/product/:productId",
+        element: <ProductDetail />,
         errorElement: <Error />,
       },
     ],

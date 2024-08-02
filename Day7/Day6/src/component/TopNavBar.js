@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const TopNavBar = () => {
   const [btnLogin, setBtnLogin] = useState("Login");
@@ -6,7 +7,7 @@ const TopNavBar = () => {
   return (
     <div className="navbar">
       <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQACI89jTidSAxtBBq_gSjcEzd7-o98Eiajsw&s"></img>
+        <Link to={"/"}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQACI89jTidSAxtBBq_gSjcEzd7-o98Eiajsw&s"></img></Link>
       </div>
       <div>
         <ul>
@@ -21,7 +22,7 @@ const TopNavBar = () => {
                 : setBtnLogin("Login");
             }}
           >
-            {btnLogin}
+           <Link to={"/login"}> {btnLogin}</Link>
           </li>
         </ul>
       </div>

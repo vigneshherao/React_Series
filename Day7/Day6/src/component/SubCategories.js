@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const SubCategories = ({ subImages }) => {
   const { img } = subImages;
   return (
