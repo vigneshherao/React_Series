@@ -1,0 +1,63 @@
+● What is a Microservice?
+
+    Microservice is a term which is used in the industrial Standards so It seperates each files (UI,Backend,API) it will have
+    seprate delployment and seprate code base;
+
+● What is Monolith architecture?
+
+    Monolithic architecture is the term which has all the code base in single file. which is very difficult to delpy and updates!
+
+● What is the difference between Monolith and Microservice?
+
+    Monolith is single code base which has all the code file in single application
+    Very unmangeble
+    Very difficult to update a single file
+
+    Microservice is a which has seperate code base
+    Very easy to update front end and Backend which has seperate code base
+
+● What is CORS?
+
+(Cross-Origin Resource Sharing) is a system, consisting of transmitting HTTP
+headers, that determines whether browsers block frontend JavaScript code from
+accessing responses for cross-origin requests.
+
+● Why do we need a useEffect Hook?
+
+THis is super variable used in react! This if the variable changes the react component rerenders the component quickly!
+However,
+because React rerenders the entire component when a state variable
+changes, it essentially creates a new instance of ‘ reactBtn ' with the
+updated value. So, in essence, we're not updating ‘ reactBtn '; instead, React
+creates a new one with the modified value each time the state changes.
+This is the beauty of React.
+
+● What is Optional Chaining?
+
+Optional Chaining is used for the data if the data not exit it will return empty ! Otherwise if we did not add means it will cause error
+
+● What is Shimmer UI?
+
+Shimmer ui is an component which used for the template for better ui expierence
+
+
+● What is Conditional Rendering, explain with a code example
+
+if the state vairbale is empty we can render the shimmer component for eg! This is called Conditional rendering else render normal data
+
+● What is async and await?
+
+async makes a function return a Promise. await makes a function wait for a Promise.
+
+● What is the use of `const json = await data.json();` in getRestaurants()
+
+
+we are waiting for the Promise ! we are changing the data into JavaScript object using json();
+
+
+
+
+
+
+
+
