@@ -4,37 +4,43 @@ class ChildofChild extends Component{
 
     constructor(props){
         super(props);
-        console.log(this.props.label + "constructor");
         this.state = {
-            count : 0
+            user : {
+                name:"dummy",
+                location:"dasfsa"
+            }
         }
+        console.log("child constreuctor is called")
 
     }
 
 
-    componentDidMount(){
-        console.log(this.props.label +"did mount");
+   async componentDidMount(){
+        const data = await fetch("https://api.github.com/users/vigneshherao");
+        const dataJson = await data.json();
         this.setState({
-            count:this.state.count +1
+            user:dataJson,
         })
+
+        console.log("chidl did mount is called")
     }
 
     componentDidUpdate(){
-        console.log("is updated");
+        console.log("child is updated");
     }
 
 
-    
+
 
 
 
     render(){
-        const {label} =  this.props;
-
+        const {name,location} =  this.state.user;
+        console.log("child render is called")
         return (
             <div>
-                <h3>{label}</h3>
-                <h2>Count is : {this.state.count}</h2>
+                <h3>{name}</h3>
+                <h2>{location}</h2>
             </div>
         )
     }

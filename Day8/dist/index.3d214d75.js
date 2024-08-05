@@ -27409,36 +27409,31 @@ var _child = require("./Child");
 var _childDefault = parcelHelpers.interopDefault(_child);
 var _childofChild = require("./ChildofChild");
 var _childofChildDefault = parcelHelpers.interopDefault(_childofChild);
-const text1 = "This is Child Class Props 1";
-const text2 = "This is Child Class Props 2";
 class UserClass extends (0, _reactDefault.default).Component {
     constructor(){
         super();
+        this.state = {
+            text1: "This is Child Class Props 1"
+        };
         console.log("Parents constructor is called");
     }
-    componentDidMount() {
-        console.log("Parents componenet did mount is called");
+    async componentDidMount() {
+        console.log("parent did mount is called");
     }
     render() {
         console.log("Parents render is called");
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _childDefault.default), {
-                    label: text1
-                }, void 0, false, {
-                    fileName: "component/UserClass.js",
-                    lineNumber: 25,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _childDefault.default), {
-                    label: text2
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _childofChildDefault.default), {
+                    label: this.state.text1.name
                 }, void 0, false, {
                     fileName: "component/UserClass.js",
                     lineNumber: 26,
                     columnNumber: 17
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _childofChildDefault.default), {
-                    label: text1
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: "",
+                    children: "Child"
                 }, void 0, false, {
                     fileName: "component/UserClass.js",
                     lineNumber: 27,
@@ -27447,7 +27442,7 @@ class UserClass extends (0, _reactDefault.default).Component {
             ]
         }, void 0, true, {
             fileName: "component/UserClass.js",
-            lineNumber: 24,
+            lineNumber: 25,
             columnNumber: 13
         }, this);
     }
@@ -27537,45 +27532,48 @@ var _react = require("react");
 class ChildofChild extends (0, _react.Component) {
     constructor(props){
         super(props);
-        console.log(this.props.label + "constructor");
         this.state = {
-            count: 0
+            user: {
+                name: "dummy",
+                location: "dasfsa"
+            }
         };
+        console.log("child constreuctor is called");
     }
-    componentDidMount() {
-        console.log(this.props.label + "did mount");
+    async componentDidMount() {
+        const data = await fetch("https://api.github.com/users/vigneshherao");
+        const dataJson = await data.json();
         this.setState({
-            count: this.state.count + 1
+            user: dataJson
         });
+        console.log("chidl did mount is called");
     }
     componentDidUpdate() {
-        console.log("is updated");
+        console.log("child is updated");
     }
     render() {
-        const { label } = this.props;
+        const { name, location } = this.state.user;
+        console.log("child render is called");
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: label
+                    children: name
                 }, void 0, false, {
                     fileName: "component/ChildofChild.js",
-                    lineNumber: 36,
+                    lineNumber: 42,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: [
-                        "Count is : ",
-                        this.state.count
-                    ]
-                }, void 0, true, {
+                    children: location
+                }, void 0, false, {
                     fileName: "component/ChildofChild.js",
-                    lineNumber: 37,
+                    lineNumber: 43,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "component/ChildofChild.js",
-            lineNumber: 35,
+            lineNumber: 41,
             columnNumber: 13
         }, this);
     }
