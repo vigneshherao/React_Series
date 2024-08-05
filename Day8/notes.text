@@ -1,0 +1,133 @@
+How do you create Nested Routes react-router-dom cofiguration?
+
+
+
+
+
+
+
+
+● What is the order of life cycle method calls in Class Based Components
+
+Mainly There are commit phase and render phase and also First it will call the constuctopr part
+and then rendering phase then the mount completes initally
+Then componenDidMount is called And it will make the changes in states then the reconsillation and diff alogrithm process
+and it rerenders the component. Tthis is update phase and last unmount phase
+
+
+Constructor - The constructor method is the first to be called when a component is
+created. It's where we typically initialize the component's state and bind event
+handlers.
+Render - The render method is responsible for rendering the component's UI. It
+must return a React element (typically JSX) representing the component's
+structure.
+ComponentDidMount - This method is called immediately after the component is
+inserted into the DOM. It's often used for making AJAX requests, setting up
+subscriptions, or other one-time initializations.
+ComponentDidUpdate - This method is called after the component has been updated
+(re-rendered) due to changes in state or props. It's often used for side effects, like
+Episode-08 | Let’s Get Classy 6
+updating the DOM in response to state or prop changes.
+ComponentWillUnmount - This method is called just before the component is removed
+from the DOM. It's used to clean up resources or perform any necessary cleanup.
+For more reference React-Lifecycle-methods
+
+
+Why do we use componentDidMount?
+
+Mainly this process is used for the api call.
+
+
+
+
+
+Why do we use componentWillUnmount? Show with example
+
+Cleanup Resources - If your component has allocated any resources, such as event
+listeners, subscriptions, timers, or manual DOM manipulations, it's essential to
+release these resources to prevent memory leaks. componentWillUnmount is the
+appropriate place to do this.
+2  Cancel Pending Requests - If your component has initiated any asynchronous
+requests, such as AJAX calls or timers, you should cancel or clean them up to
+avoid unexpected behavior after the component is unmounted.
+
+
+when we leave a page it triggers the unmount phase. It will be usefull for many purpose! 
+main Eg _ setinterval and clear interval
+
+
+Why do we use super(props) in constructor?
+In a React component, super(props) is used in the constructor for the following reasons:
+
+Calling the Parent Constructor: In JavaScript, the super keyword is used to call the constructor of the parent class. In the context of React, when you create a class component that extends React.Component, you need to call super(props) to ensure that the parent's constructor (React.Component) is properly initialized.
+
+Access to this.props: By passing props to super, you make props available in the constructor via this.props. This allows you to access this.props within the constructor, which can be useful if you need to use props to initialize state or perform other setup tasks.
+
+
+
+
+
+
+ Why can't we have the callback function of useEffect async?
+
+In React, the callback function passed to useEffect cannot be made async directly. The primary reasons are related to how useEffect expects the return value of the callback function and the implications of using async functions:
+
+Return Value of useEffect Callback:
+
+The useEffect hook expects the callback function to either return nothing (undefined) or a cleanup function.
+When you make a function async, it automatically returns a promise. React does not handle promises returned by the useEffect callback, which can lead to unexpected behavior.
+Cleanup Function:
+
+If an effect needs cleanup, the useEffect callback should return a function to handle that. An async function's return value is a promise, not a function, which can confuse the cleanup mechanism.
+
+
+
+Why can't we have the callback
+function of useEffect async ?
+A: In React, the  useEffect  hook is designed to handle side effects in functional
+components. It's a powerful and flexible tool for managing asynchronous
+operations, such as data fetching, API calls, and more. However, useEffect itself
+cannot directly accept an async callback function. This is because useEffect
+expects its callback function to return either nothing (i.e., undefined) or a cleanup
+Episode-08 | Let’s Get Classy 11
+function, and it doesn't work well with Promises returned from async functions.
+There are a few reasons for this:
+Return Value Expectation - The primary purpose of the useEffect callback function is
+to handle side effects and perform cleanup. React expects us to either return
+nothing (i.e., undefined) from the callback or return a cleanup function. An async
+function returns a Promise, and it doesn't fit well with this expected behavior.
+Execution Order and Timing - With async functions, we might not have fine-grained
+control over the execution order of the asynchronous code and the cleanup code.
+React relies on the returned cleanup function to handle cleanup when the
+component is unmounted or when the dependencies specified in the useEffect
+dependency array change. If you return a Promise, React doesn't know when or
+how to handle cleanup.
+To work with async operations within a useEffect, we can use the following
+pattern:
+useEffect(() => {
+ const fetchData = async () => {
+ try {
+ // Perform asynchronous operations
+ const result = await someAsyncOperation();
+ // Update the state with the result
+ setState(result);
+ } catch (error) {
+ // Handle errors
+ console.error(error);
+ }
+ };
+ fetchData(); // Call the async function
+ return () => {
+ // Cleanup code, if necessary
+ // This function will be called when the component unmoun
+ts or when dependencies change
+Episode-08 | Let’s Get Classy 12
+ };
+}, [/* dependency array */]);
+In this pattern, we define an async function within the useEffect callback, perform
+our asynchronous operations, and then call that function. Additionally, we return a
+cleanup function from the useEffect to handle any necessary cleanup tasks when
+the component unmounts or when specified dependencies change.
+By using this approach, we can effectively manage asynchronous operations with
+useEffect while adhering to React's expectations for the callback function's return
+value.
