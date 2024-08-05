@@ -1,4 +1,4 @@
-6408
+6480
 66C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\fill-range133673132636908971 1
 125C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\common133673132658505423 1
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_type_of.js133673132662173210 0
@@ -7,7 +7,7 @@
 108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map-support\node_modules\source-map\README.md133673160667879861 0
 72C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin\detect-libc133673132685604043 0
 80C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\domelementtype\readme.md133673132641291454 0
-51C:\Users\vignesh\Desktop\React_Series\Day8\index.js133673167555979692 0
+51C:\Users\vignesh\Desktop\React_Series\Day8\index.js133673310968097685 0
 82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map\source-map.d.ts133673132644887220 0
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\getcomputedstyle.js133673132669629414 0
 101C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react\cjs\react-jsx-runtime.production.min.js133673158477159066 0
@@ -52,6 +52,7 @@
 99C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lmdb\node_modules\node-addon-api\napi-inl.h133673132642072012 0
 114C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib\decode_codepoint.d.ts133673132653488131 0
 72C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm133673132662616352 1
+83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\server.mjs133673307802525535 0
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\source\conditional-pick.d.ts133673132642713044 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\lib\esm\general.d.ts133673132655841240 0
 111C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.h133673132658707553 0
@@ -71,7 +72,7 @@
 63C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\jsx\lib133673160669259982 1
 62C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\base-x133673132637265452 1
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\electron-to-chromium\LICENSE133673132634326047 0
-47C:\Users\vignesh\Desktop\React_Series\Day8\dist133673303037070988 1
+47C:\Users\vignesh\Desktop\React_Series\Day8\dist133673320755892035 1
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_set_prototype_of.mjs133673132671104233 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\KR.js133673132672921888 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\bigint.js133673132655097516 0
@@ -98,9 +99,9 @@
 74C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\parse-json\license133673132633897340 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\jsx\etc\profiler\assets\js\jquery.js133673160669165242 0
 126C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\common\SyntaxError.js133673132658899448 0
-55C:\Users\vignesh\Desktop\React_Series\Day8\node_modules133673164020026457 1
+55C:\Users\vignesh\Desktop\React_Series\Day8\node_modules133673307804059176 1
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map\lib\quick-sort.js133673132642173035 0
-60C:\Users\vignesh\Desktop\React_Series\Day8\package-lock.json133673164020961440 0
+60C:\Users\vignesh\Desktop\React_Series\Day8\package-lock.json133673307805261200 0
 113C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-html\node_modules\srcset\package.json133673132636266531 0
 66C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map133673132645004656 1
 103C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map-support\node_modules\source-map\test133673160668711117 1
@@ -117,7 +118,7 @@
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\scheduler\umd\scheduler.production.min.js133673158588798694 0
 91C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\core\test\fixtures\main-mjs133673132663857155 1
 133C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esmangle\node_modules\source-map\test\source-map\test-source-map-generator.js133673160668371117 0
-55C:\Users\vignesh\Desktop\React_Series\Day8\package.json133673164020084345 0
+55C:\Users\vignesh\Desktop\React_Series\Day8\package.json133673307804109292 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\lib\replace\atrule\keyframes.js133673132656296614 0
 81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lines-and-columns\LICENSE133673132633847105 0
 75C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esprima\test\run.js133673160668251165 0
@@ -136,7 +137,7 @@
 60C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin133673160669906622 1
 67C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\ansi-styles133673132637965759 1
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\will-change.js133673132681644274 0
-74C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.package-lock.json133673164021499775 0
+74C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.package-lock.json133673307806099870 0
 108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_object_without_properties_loose.js133673132660801298 0
 126C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map-support\node_modules\source-map\build\suffix-source-map.jsm133673160668365991 0
 62C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@babel133673132607359747 1
@@ -158,7 +159,7 @@
 82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\wordwrap\test\idleness.txt133673160668206191 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\core\test\AssetGraph.test.js133673132648322494 0
 141C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133673132636865745 0
-63C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel133673164020036603 1
+63C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel133673307804069314 1
 70C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\weak-lru-cache133673132641585574 1
 113C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\css-container-queries-style.js133673132660200279 0
 61C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\clone133673132639303779 1
@@ -382,6 +383,7 @@
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react\umd\react.production.min.js133673158477312107 0
 124C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts.map133673132647096142 0
 68C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\import-fresh133673132637955708 1
+77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\lib133673307802326083 1
 103C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\css-focus-visible.js133673132661374599 0
 77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_using133673132668700023 1
 73C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lmdb\src\misc.cpp133673132657191858 0
@@ -569,6 +571,7 @@
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\ime.js133673132671058863 0
 77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esmangle\lib\query.js133673160668371117 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\jsx\lib\js\js\phantomjs\test-case.jsx133673160669438815 0
+89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\server.d.ts133673307802573952 0
 71C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\posthtml-render133673132638472827 1
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib133673132655067243 1
 74C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\has-flag\readme.md133673132638124580 0
@@ -628,6 +631,7 @@
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\update-browserslist-db\utils.js133673132638409709 0
 117C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\index.js133673132636845730 0
 86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\mdn-data\api133673132643889644 1
+83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\LICENSE.md133673307802460452 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\IN.js133673132671178298 0
 62C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\srcset133673132637945919 1
 100C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\utils\List.js133673132663396294 0
@@ -638,6 +642,7 @@
 62C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\stable133673132637886569 1
 123C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esmangle\node_modules\source-map\test\source-map\test-base64-vlq.js133673160668181373 0
 78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\convertor133673132663056190 1
+120C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\umd\react-router-dom.production.min.js.map133673307802410466 0
 111C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_class_apply_descriptor_set\package.json133673132663629474 0
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\svgo\plugins\minifyStyles.js133673132654138701 0
 70C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\supports-color133673132637945919 1
@@ -659,6 +664,7 @@
 69C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\utility-types133673132644365775 1
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\source\merge-exclusive.d.ts133673132646382583 0
 64C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\wordwrap133673160668076905 1
+84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\index.d.ts133673307802365543 0
 72C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\wordwrap\example133673160668037310 1
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\semver\functions\rcompare.js133673132650415669 0
 123C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index-parse-selector.cjs133673132653443514 0
@@ -839,6 +845,7 @@
 117C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\Value.js133673132652972281 0
 88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\regenerator-runtime\package.json133673132637436003 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\source\set-return-type.d.ts133673132649942857 0
+85C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\CHANGELOG.md133673307802440488 0
 75C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\base.d.ts133673132639900897 0
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_class_extract_field_descriptor133673132663959639 1
 79C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\fs\package.json133673132644056193 0
@@ -958,6 +965,7 @@
 91C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\source\readonly-deep.d.ts133673132648649707 0
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\source\require-exactly-one.d.ts133673132649145553 0
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\svgo\plugins\_collections.js133673132650639922 0
+91C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\history.d.ts133673307803134212 0
 78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\import-fresh\readme.md133673132637171628 0
 91C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\type-fest\source\tsconfig-json.d.ts133673132650629926 0
 76C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\parse-json\readme.md133673132637161098 0
@@ -1496,6 +1504,7 @@
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\utils\string.js133673132664796207 0
 96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\source-map-support\header-test\script.js133673160668391357 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_class_name_tdz_error133673132664040799 1
+92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.js.map133673307802365543 0
 107C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\syntax\node\Ratio.js133673132664401768 0
 72C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\cjs133673132657212112 1
 122C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\reusePaths.js133673132654939245 0
@@ -1656,6 +1665,7 @@
 108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Ratio.cjs133673132657390258 0
 114C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\domutils\lib\manipulation.d.ts.map133673132650272910 0
 76C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\semver\bin\semver.js133673132651207422 0
+83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\README.md133673307803111996 0
 69C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\scheduler\cjs133673158588788453 1
 78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\scheduler\package.json133673158588858678 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@babel\helper-validator-identifier\lib\identifier.js.map133673132637663202 0
@@ -1847,6 +1857,7 @@
 98C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\tokenizer\OffsetToLocation.js133673132664391491 0
 81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\posthtml-parser\readme.md133673132640561284 0
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\node-gyp-build-optional-packages\index.js133673132637148892 0
+82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\index.js133673307801570324 0
 83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\domelementtype\package.json133673132639245826 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\posthtml-parser\dist\index.d.ts133673132641178632 0
 103C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\rtcpeerconnection.js133673132677262911 0
@@ -2002,6 +2013,7 @@
 83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\ordered-binary\package.json133673132642628173 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\LICENSE133673132634291309 0
 79C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\loose-envify\replace.js133673158477118464 0
+81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\CHANGELOG.md133673307802230469 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\ordered-binary\rollup.config.js133673132639030891 0
 88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\cosmiconfig\dist\defaults.js.map133673132646128097 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\watcher-win32-x64\LICENSE133673132633975732 0
@@ -2162,6 +2174,7 @@
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\htmlnano\docs\docs\060-contribute.md133673132655212971 0
 80C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\node-addon-api\nothing.c133673132633356578 0
 91C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\node-addon-api\package-support.json133673132645599084 0
+84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\LICENSE.md133673307803091903 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\parser133673132665003059 1
 83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\node-addon-api\package.json133673132645891707 0
 104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\cjs\restructure\prepare\processSelector.cjs133673132649155522 0
@@ -2265,6 +2278,7 @@
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\dom-serializer\node_modules\entities133673132644242796 1
 110C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lmdb\node_modules\node-addon-api\tools\clang-format.js133673132643997432 0
 82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\msgpackr\dist\node.cjs.map133673132652091146 0
+72C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom133673307802594192 1
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_ts_decorate.mjs133673132671409389 0
 74C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\is-json\.npmignore133673132634833513 0
 77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\msgpackr\dist\test.js133673132647660557 0
@@ -2522,6 +2536,7 @@
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\font-size-adjust.js133673132669045046 0
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.c133673132654524668 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\MR.js133673132674831912 0
+86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\package.json133673307803981774 0
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.h133673132658799720 0
 116C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133673132644335768 0
 81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\chalk\source\templates.js133673132636551280 0
@@ -2713,7 +2728,7 @@
 111C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\syntax\config\walker.cjs133673132659170552 0
 83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\jsx\etc\profiler\index.html133673160669192920 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\details.js133673132666377823 0
-68C:\Users\vignesh\Desktop\React_Series\Day8\component\ChildofChild.js133673303713016708 0
+68C:\Users\vignesh\Desktop\React_Series\Day8\component\ChildofChild.js133673320750311446 0
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\css-mixblendmode.js133673132662996927 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\cosmiconfig\dist\index.d.ts.map133673132648814432 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\htmlnano\lib\modules\minifyJs.cjs133673132645226452 0
@@ -2986,8 +3001,10 @@
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\cjs\syntax\node\Identifier.cjs133673132653644817 0
 80C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\dom-serializer\README.md133673132643294766 0
 109C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esmangle\lib\pass\transform-to-sequence-expression.js133673160668969554 0
+96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.umd.min.js133673307801812231 0
 88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\htmlnano\docs\docs\030-config.md133673132654148675 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\htmlnano\docs\docs\040-presets.md133673132654459287 0
+82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\server.js133673307801726293 0
 72C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\has-flag\license133673132637097487 0
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\css-filters.js133673132661155225 0
 88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_array_with_holes133673132662848570 1
@@ -3083,6 +3100,7 @@
 115C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor133673132663867341 1
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\jpeg2000.js133673132672256219 0
 132C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esmangle\node_modules\source-map\test\source-map\test-source-map-consumer.js133673160668325937 0
+84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\server.d.ts133673307802584102 0
 128C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\convertor\create.js133673132646540383 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\tokenizer\adopt-buffer.js133673132659291667 0
 124C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\esmangle\node_modules\source-map\test\source-map\test-source-node.js133673160668414233 0
@@ -3315,6 +3333,7 @@
 86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\detect-libc\bin\detect-libc.js133673132638722224 0
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers133673132635305049 1
 64C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\lib133673132657404516 1
+73C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router133673307803966855 1
 73C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules133673132607471218 1
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\TN.js133673132679531706 0
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\mdn-data\CHANGELOG.md133673132648737681 0
@@ -3434,6 +3453,7 @@
 96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\indexeddb2.js133673132671280016 0
 85C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\profiler\src\types.js133673132643539643 0
 116C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\definition-syntax\generate.js133673132662153033 0
+109C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\react-router-dom.development.js133673307801546230 0
 119C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\definition-syntax\SyntaxError.js133673132664969417 0
 99C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\lib\process\ProcessChild.js133673132648322494 0
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\lib\convertor\create.js133673132660304964 0
@@ -3479,6 +3499,7 @@
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\cache\src\IDBCache.browser.js133673132640572532 0
 98C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\runtime-react-refresh\package.json133673132637811108 0
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\tokenizer\names.cjs133673132656194836 0
+86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\index.js.map133673307801797941 0
 117C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\tokenizer\OffsetToLocation.cjs133673132656524038 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\tokenizer\TokenStream.cjs133673132658457213 0
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\tokenizer\types.cjs133673132658572526 0
@@ -3576,6 +3597,7 @@
 103C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\parser\index.cjs133673132654185011 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\OM.js133673132675790463 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\parser\parse-selector.cjs133673132656840671 0
+81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\umd133673307802350925 1
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\core\test\InternalAsset.test.js133673132656749130 0
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\parser\sequence.cjs133673132657846993 0
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\csso\node_modules\css-tree\cjs\lexer\index.cjs133673132654089601 0
@@ -3740,6 +3762,7 @@
 104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_possible_constructor_return.js133673132660904028 0
 77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\index.js133673132663215484 0
 75C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\parser133673132665521128 1
+90C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.d.ts133673307803711597 0
 78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\tokenizer133673132666018195 1
 85C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\walker\create.js133673132661120475 0
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\lib\utils\create-custom-error.js133673132660665736 0
@@ -3860,6 +3883,7 @@
 78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\dist\data.cjs133673132649365740 0
 136C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-last-child.js133673132657074061 0
 77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\dist\data.js133673132662008316 0
+77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist133673307802573952 1
 119C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\mergeStyles.js133673132649285580 0
 81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\dist\version.cjs133673132659540964 0
 107C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\src\MockPackageInstaller.js133673132646855339 0
@@ -3913,6 +3937,7 @@
 88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\abortcontroller-polyfill\LICENSE133673132634024725 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\core\test\utils.test.js133673132662224478 0
 104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\orientation-sensor.js133673132675902884 0
+87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\server.js133673307801699612 0
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\cjs\syntax\scope\selector.cjs133673132658199207 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\cjs\syntax\pseudo\index.cjs133673132655233935 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-tree\cjs\syntax\node\AnPlusB.cjs133673132637641051 0
@@ -4049,6 +4074,7 @@
 119C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib\generated\encode-html.d.ts133673132654398749 0
 98C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\dom-serializer\lib133673132644646356 1
 117C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib\generated\encode-html.js133673132643845227 0
+112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\react-router-dom.production.min.js133673307801639678 0
 121C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib\generated\encode-html.js.map133673132651417741 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133673132649701212 0
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\entities\lib\esm\decode.js133673132642759690 0
@@ -4123,6 +4149,7 @@
 82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\color-convert\package.json133673132633927314 0
 107C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\domutils\lib\esm\helpers.js133673132638323431 0
 107C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\domutils\lib\esm\index.d.ts133673132653517642 0
+113C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\umd\react-router-dom.development.js133673307801609444 0
 111C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\domutils\lib\esm\index.d.ts.map133673132648077006 0
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\domutils\lib\esm\index.js133673132640165925 0
 108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\css-select\node_modules\domutils\lib\esm\legacy.d.ts133673132653751261 0
@@ -4504,6 +4531,7 @@
 78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\core\binding.d.ts133673132637587901 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\ZA.js133673132682020186 0
 82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_instanceof133673132666275849 1
+83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\router.ts133673307803911797 0
 128C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\atrule\keyframes.js133673132650799446 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\regions\ZM.js133673132682052864 0
 123C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer\const.js133673132645981653 0
@@ -4547,6 +4575,7 @@
 96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\src\dependency-location.js133673132645671699 0
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\bloburls.js133673132655328822 0
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\minmaxwh.js133673132674443094 0
+86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\CHANGELOG.md133673307802861523 0
 98C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\border-image.js133673132655697342 0
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\broadcastchannel.js133673132656033183 0
 101C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\canvas-blending.js133673132657097542 0
@@ -4661,6 +4690,7 @@
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\dataset.js133673132666116996 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\datauri.js133673132666156735 0
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\_\_ts_generator\package.json133673132668239880 0
+82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\README.md133673307802470441 0
 108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\declarative-shadow-dom.js133673132666285742 0
 87C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\runtime-js\package.json133673132651950637 0
 96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\decorators.js133673132666341574 0
@@ -4809,6 +4839,7 @@
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\svg.js133673132678894645 0
 117C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\api\index.js133673132635482101 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\sxg.js133673132678904643 0
+78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist133673307803927002 1
 99C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\tabindex-attr.js133673132678979652 0
 131C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\property\border.js133673132644398766 0
 94C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\caniuse-lite\data\features\testfeat.js133673132679137040 0
@@ -5031,6 +5062,7 @@
 134C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Combinator.js133673132645387154 0
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_check_private_redeclaration.mjs133673132669311648 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_class_apply_descriptor_destructure.mjs133673132669334502 0
+77C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\umd133673307801881768 1
 104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_class_apply_descriptor_get.mjs133673132669375030 0
 104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_class_apply_descriptor_set.mjs133673132669404923 0
 107C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_class_apply_descriptor_update.mjs133673132669434994 0
@@ -5098,6 +5130,7 @@
 104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\runtime-js\src\helpers\get-worker-url.js133673132645436586 0
 98C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_wrap_async_generator.mjs133673132671652875 0
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\src\_wrap_native_super.mjs133673132671687956 0
+92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.cjs.js133673307801536172 0
 88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\scripts\ast_grep.js133673132662523737 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\core\test\fixtures\invalid-distpath\package.json133673132663268758 0
 85C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\scripts\build.js133673132662550373 0
@@ -5137,6 +5170,7 @@
 101C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_class_private_method_set.js133673132658933381 0
 112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_class_static_private_field_spec_set.js133673132659096151 0
 110C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_class_static_private_field_update.js133673132659146187 0
+85C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\main.js133673307801492557 0
 86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_construct.js133673132659234554 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_create_class.js133673132659281539 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@swc\helpers\esm\_create_super.js133673132659378601 0
@@ -5312,6 +5346,7 @@
 106C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\test\integration\workerfarm\ipc.js133673132647136130 0
 110C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\test\integration\workerfarm\logging.js133673132647414556 0
 120C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\test\integration\workerfarm\master-process-id.js133673132647680492 0
+84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\history.ts133673307803406678 0
 113C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\test\integration\workerfarm\master-sum.js133673132647896406 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\src\WorkerFarm.js133673132652762935 0
 107C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\workers\test\integration\workerfarm\ping.js133673132648096999 0
@@ -5357,6 +5392,7 @@
 73C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\src133673132656058144 1
 74C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\test133673132656152060 1
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\test\collection.test.js133673132642567284 0
+116C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\react-router-dom.production.min.js.map133673307802350925 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\test\DefaultMap.test.js133673132645108841 0
 80C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\test\input133673132652952394 1
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\utils\test\objectHash.test.js133673132653725653 0
@@ -5425,6 +5461,7 @@
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-svg\package.json133673132641872948 0
 83C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-svg\src133673132641188626 1
 84C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-svg\test133673132639982672 1
+66C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run133673307800801243 1
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-svg\test\parseFuncIRI.test.js133673132640135182 0
 99C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-svg\src\dependencies.js133673132636702591 0
 93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\transformer-svg\lib\inline.js133673132638028903 0
@@ -5642,6 +5679,7 @@
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\packager-svg\src\SVGPackager.js133673132636745260 0
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\packager-svg\lib\SVGPackager.js133673132635375674 0
 89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\packager-raw\package.json133673132637811108 0
+96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.cjs.js.map133673307801963781 0
 80C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\packager-raw\src133673132636494369 1
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\packager-raw\src\RawPackager.js133673132636770457 0
 95C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\packager-raw\lib\RawPackager.js133673132635385654 0
@@ -5693,6 +5731,7 @@
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\src\NodePackageManager.js133673132647176134 0
 105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\src\promiseFromProcess.js133673132648219622 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\src\utils.js133673132648724902 0
+108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\react-router.production.min.js.map133673307801939388 0
 110C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\src\validateModuleSpecifier.js133673132648945556 0
 92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\lib\index.js133673132640768892 0
 96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\package-manager\lib\index.js.map133673132652884108 0
@@ -5785,6 +5824,7 @@
 122C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\units.schema.json133673132648255755 0
 86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@babel\code-frame\package.json133673132638697391 0
 128C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\api\inheritance.schema.json133673132643831899 0
+68C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router133673307802380245 1
 86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\node-resolver-core\lib133673132639278889 1
 109C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\csso\CHANGELOG.md133673132653418916 0
 101C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist133673132647590314 1
@@ -5961,6 +6001,7 @@
 124C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\_collections.js133673132638620017 0
 109C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo133673132656749130 1
 116C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\coa.js133673132644541997 0
+78C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\README.md133673307802264645 0
 119C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\config.js133673132645142742 0
 127C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\css-class-list.js133673132647336283 0
 97C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@babel\highlight\node_modules\ansi-styles133673132637087462 1
@@ -5993,6 +6034,7 @@
 116C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure133673132652742880 1
 113C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\usage.js133673132652488452 0
 133C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\1-mergeAtrule.js133673132635664774 0
+100C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.umd.min.js.map133673307802825954 0
 136C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\3-disjoinRuleset.js133673132637915549 0
 139C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\4-restructShorthand.js133673132639222563 0
 134C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\7-mergeRuleset.js133673132640815316 0
@@ -6110,6 +6152,7 @@
 140C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts133673132648106979 0
 76C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin\jsx-with-server133673160669895782 0
 138C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\aliases.js133673132635687833 0
+89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\utils.d.ts133673307803938659 0
 144C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133673132645401824 0
 138C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\index.d.ts133673132649475768 0
 102C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133673132685660174 0
@@ -6403,7 +6446,36 @@
 67C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin\semver133673132685660174 0
 71C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin\semver.cmd133673132685645899 0
 71C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\.bin\semver.ps1133673132685645899 0
-65C:\Users\vignesh\Desktop\React_Series\Day8\component\UserClass.js133673303035649020 0
-58C:\Users\vignesh\Desktop\React_Series\Day8\dist\index.html133673281369848651 0
-65C:\Users\vignesh\Desktop\React_Series\Day8\dist\index.3d214d75.js133673303036916641 0
-69C:\Users\vignesh\Desktop\React_Series\Day8\dist\index.3d214d75.js.map133673303037036060 0
+65C:\Users\vignesh\Desktop\React_Series\Day8\component\UserClass.js133673311942976738 0
+73C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist133673307802350925 1
+86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\index.js133673307801469000 0
+88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.js133673307801649630 0
+81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\main.js133673307801594483 0
+101C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\react-router.development.js133673307801619603 0
+105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\umd\react-router.development.js133673307801669616 0
+116C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\umd\react-router-dom.production.min.js133673307801669616 0
+92C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.umd.js133673307801776233 0
+104C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\react-router.production.min.js133673307801712523 0
+108C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\umd\react-router.production.min.js133673307801736519 0
+90C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\index.js.map133673307801776233 0
+113C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\react-router-dom.development.js.map133673307802053535 0
+90C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\lib\context.d.ts133673307802316090 0
+105C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\react-router.development.js.map133673307801867141 0
+109C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\umd\react-router.development.js.map133673307801910855 0
+112C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\umd\react-router.production.min.js.map133673307802198296 0
+117C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\umd\react-router-dom.development.js.map133673307802094864 0
+79C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\LICENSE.md133673307802251024 0
+93C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\lib\components.d.ts133673307802290282 0
+88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\dist\lib\hooks.d.ts133673307802338461 0
+96C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\router.umd.js.map133673307802551450 0
+81C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router\package.json133673307802390490 0
+88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\server.mjs133673307802490423 0
+86C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\dom.d.ts133673307802539574 0
+88C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\dist\index.d.ts133673307802563825 0
+85C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\react-router-dom\package.json133673307802604305 0
+89C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\dist\index.d.ts133673307803434576 0
+82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\index.ts133673307803448038 0
+82C:\Users\vignesh\Desktop\React_Series\Day8\node_modules\@remix-run\router\utils.ts133673307803966855 0
+58C:\Users\vignesh\Desktop\React_Series\Day8\dist\index.html133673320755542425 0
+65C:\Users\vignesh\Desktop\React_Series\Day8\dist\index.3d214d75.js133673320755727521 0
+69C:\Users\vignesh\Desktop\React_Series\Day8\dist\index.3d214d75.js.map133673320755872138 0

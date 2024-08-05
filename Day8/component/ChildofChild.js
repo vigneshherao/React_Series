@@ -23,17 +23,25 @@ class ChildofChild extends Component{
         })
 
         console.log("chidl did mount is called")
+
+        this.timer = setInterval(() => {
+            console.log("internal");
+        }, 1000);
     }
 
     componentDidUpdate(){
         console.log("child is updated");
+
     }
 
 
 
 
 
-
+    componentWillUnmount(){
+        console.log("unmounted the chil")
+         clearInterval(this.timer)
+    }
     render(){
         const {name,location} =  this.state.user;
         console.log("child render is called")

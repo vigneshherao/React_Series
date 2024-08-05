@@ -1,6 +1,7 @@
 import React from "react";
 import Child from "./Child";
 import ChildofChild from "./ChildofChild";
+import { Link } from "react-router-dom";
 class UserClass extends React.Component{
 
 
@@ -23,8 +24,7 @@ class UserClass extends React.Component{
         console.log("Parents render is called");
         return (
             <div>
-                <ChildofChild label={this.state.text1.name}></ChildofChild>
-                <button onClick={""}>Child</button>
+                <Link to={"/child"}><button>Child</button></Link>
             </div>
             
         )
