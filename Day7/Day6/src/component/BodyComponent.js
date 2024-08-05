@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import OffersComponent from './OffersComponent'
 import Categories from './Categories'
 import { Mega_Offer } from '../utils/constants'
 import Items from './Items'
 import SuperDealOffer from './SuperDealOffer'
+
+
+
 const BodyComponent = () => {
   return (
     <div>
@@ -14,6 +17,7 @@ const BodyComponent = () => {
         <Items/>
         <OffersComponent/>
         <SuperDealOffer/>
+
     </div>
   )
 }

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Product = ({ productDetail }) => {
   const { name, image, price } = productDetail;
+
+  console.log(useState())
 
   return (
     <div className="product">

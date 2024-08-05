@@ -114,7 +114,7 @@ const ChillingOffers = () => {
   return (
     <div className="product-container">
       {catObj.map((porduct) => {
-        return <Product productDetail={porduct} />;
+        return <Product key={porduct.id} productDetail={porduct} />;
       })}
     </div>
   );

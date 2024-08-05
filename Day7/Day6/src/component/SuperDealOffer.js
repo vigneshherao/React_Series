@@ -67,7 +67,6 @@ const SuperDealOffer = () => {
         </div>
         <div className="product-container">
           {catObjs.map((porduct) => {
-            console.log(porduct)
             return <Link to={"/product/"+porduct.id} key={porduct.id}><Product productDetail={porduct} /></Link>;
           })}
         </div>
