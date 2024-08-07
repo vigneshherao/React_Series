@@ -2962,12 +2962,14 @@ var _userClassDefault = parcelHelpers.interopDefault(_userClass);
 var _reactRouterDom = require("react-router-dom");
 var _childofChild = require("./component/ChildofChild");
 var _childofChildDefault = parcelHelpers.interopDefault(_childofChild);
+var _fetch = require("./component/Fetch");
+var _fetchDefault = parcelHelpers.interopDefault(_fetch);
 const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "Hello World");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 const AppLayout = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userClassDefault.default), {}, void 0, false, {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fetchDefault.default), {}, void 0, false, {
         fileName: "index.js",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 9
     }, undefined);
 };
@@ -2977,7 +2979,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "index.js",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 17
         }, undefined)
     },
@@ -2985,7 +2987,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/child",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _childofChildDefault.default), {}, void 0, false, {
             fileName: "index.js",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 17
         }, undefined)
     }
@@ -2994,7 +2996,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "index.js",
-    lineNumber: 35,
+    lineNumber: 36,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3005,7 +3007,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj","./component/UserClass":"5EAP5","react-router-dom":"9xmpe","./component/ChildofChild":"bSgWo"}],"21dqq":[function(require,module,exports) {
+},{"react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj","./component/UserClass":"5EAP5","react-router-dom":"9xmpe","./component/ChildofChild":"bSgWo","./component/Fetch":"dNK5n"}],"21dqq":[function(require,module,exports) {
 "use strict";
 module.exports = require("a569817e6ea559f6");
 
@@ -34743,6 +34745,147 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["km5uZ","1xC6H","bB7Pu"], "bB7Pu", "parcelRequire4fc7")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dNK5n":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e126 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e126.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _useFetchData = require("./useFetchData");
+var _useFetchDataDefault = parcelHelpers.interopDefault(_useFetchData);
+var _useFPS = require("./useFPS");
+var _useFPSDefault = parcelHelpers.interopDefault(_useFPS);
+var _s = $RefreshSig$();
+const DataDisplay = ()=>{
+    _s();
+    const [urls, setUrls] = (0, _react.useState)([]);
+    const [inputValue, setInputValue] = (0, _react.useState)("");
+    const fps = (0, _useFPSDefault.default)();
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: [
+                "FPS: ",
+                fps
+            ]
+        }, void 0, true, {
+            fileName: "component/Fetch.js",
+            lineNumber: 12,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "component/Fetch.js",
+        lineNumber: 11,
+        columnNumber: 5
+    }, undefined);
+};
+_s(DataDisplay, "/rbUFgp9X1G5qFwd6sgCmlo7t+E=", false, function() {
+    return [
+        (0, _useFPSDefault.default)
+    ];
+});
+_c = DataDisplay;
+exports.default = DataDisplay;
+var _c;
+$RefreshReg$(_c, "DataDisplay");
+
+  $parcel$ReactRefreshHelpers$e126.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./useFetchData":"eV174","./useFPS":"kpqYG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eV174":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bacc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bacc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _s = $RefreshSig$();
+const useFetchData = (urls)=>{
+    _s();
+    const [data, setData] = (0, _react.useState)([]);
+    const [loading, setLoading] = (0, _react.useState)(true);
+    const [error, setError] = (0, _react.useState)(null);
+    (0, _react.useEffect)(()=>{
+        const fetchData = async ()=>{
+            try {
+                setLoading(true);
+                const responses = await Promise.all(urls.map((url)=>fetch(url)));
+                const data = await Promise.all(responses.map((response)=>response.json()));
+                setData(data);
+            } catch (err) {
+                setError(err);
+            } finally{
+                setLoading(false);
+            }
+        };
+        if (urls.length > 0) fetchData();
+    }, [
+        urls
+    ]);
+    return {
+        data,
+        loading,
+        error
+    };
+};
+_s(useFetchData, "C4fiAW6C7RZgaKDoEXQgZpbuUZg=");
+exports.default = useFetchData;
+
+  $parcel$ReactRefreshHelpers$bacc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kpqYG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7276 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7276.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _s = $RefreshSig$();
+const useFPS = ()=>{
+    _s();
+    const [fps, setFps] = (0, _react.useState)(0);
+    (0, _react.useEffect)(()=>{
+        let lastFrameTime = performance.now();
+        let frameCount = 0;
+        const calculateFps = ()=>{
+            const now = performance.now();
+            frameCount++;
+            if (now - lastFrameTime >= 1000) {
+                setFps(frameCount);
+                frameCount = 0;
+                lastFrameTime = now;
+            }
+            requestAnimationFrame(calculateFps);
+        };
+        calculateFps();
+        return ()=>cancelAnimationFrame(calculateFps);
+    }, []);
+    return fps;
+};
+_s(useFPS, "mi038/w8Iliye2k+AlhoBHjeij8=");
+exports.default = useFPS;
+
+  $parcel$ReactRefreshHelpers$7276.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["km5uZ","1xC6H","bB7Pu"], "bB7Pu", "parcelRequire4fc7")
 
 //# sourceMappingURL=index.3d214d75.js.map
