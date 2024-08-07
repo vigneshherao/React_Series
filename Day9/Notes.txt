@@ -1,0 +1,123 @@
+When and why do we need lazy()?
+
+
+Lazy loading or code spliting or dynamic loading are the same which the component will render on demand
+This will help the web page to load the page quickly and very easy to load large scale application
+
+
+* imporve performance
+*Imporve load Time
+*Code Splitting and Reducing Initial Bundle Size -
+*Faster Initial Load
+*Better User Experience -
+
+
+import React, { lazy, Suspense } from 'react';
+
+const LazyComponent = lazy(() => import('./LazyComponent'));
+
+
+function App() {
+ return (
+ <div>
+ <Suspense fallback={<div>Loading...</div>}>
+ <LazyComponent />
+ </Suspense>
+ </div>
+ );
+}
+
+
+
+In this example, the  LazyComponent  is only loaded when it is rendered.
+The  Suspense  component allows us to specify a loading indicator while the
+component is being loaded. This way, we can ensure a smooth user experience
+even during the asynchronous loading process.
+
+
+
+What is suspense?
+
+when we call lazy component it will not run direclty ! That time it will take some 
+time to load that component. So that time we can render shimmer for the user experience.
+
+manage asynchronous data fetching and code-splitting in our
+applications
+
+*Data Fetching - Suspense can be used to handle the loading of asynchronous data,
+such as data from an API. It provides a way to specify a fallback UI (e.g., a loading
+spinner or a message) that is displayed while the data is being fetched. 
+
+*Code Splitting - When used with lazy() or React.lazy(), Suspense can manage the
+loading of code-split components. We can specify a fallback component or
+loading indicator to display while the component is being loaded. This helps in
+reducing the initial bundle size and improving the application's performance
+
+
+*Error Handling - Suspense can also handle errors that might occur during data
+fetching or code splitting. We can specify how to render an error component or
+message in case an error occurs during the asynchronous operation.
+
+
+
+Why we got this error : A component suspended while responding to
+synchronous input. This will cause the UI to be replaced with a loading indicator.
+To fix, updates that suspend should be wrapped with startTransition? How does
+suspense fix this error?
+
+
+when we call lazy component it will not run direclty ! That time it will take some 
+time to load that component. So that time we can render shimmer for the user experience.
+
+To understand this error and how to fix it, you need to know a bit about how
+Suspense works and why it's important. Suspense is used to manage
+asynchronous data fetching and code-splitting, allowing you to display a loading
+indicator while the data or code is being fetched. When React encounters a
+Suspense boundary (created using ), it knows that there might be a delay in
+rendering, and it can handle that situation gracefully.
+The error message you received is telling you that a component that was
+responding to synchronous input (meaning it's not supposed to be waiting for
+anything) encountered a suspension. This should not happen because Suspense
+is primarily designed to handle asynchronous operations, and you generally don't
+want to introduce delays in the rendering of synchronous user interactions.
+
+
+
+Advantages and disadvantages of using this code splitting pattern?
+
+Suspense helps in maintaining a smooth and responsive user experience by
+handling asynchronous operations gracefully and ensuring that synchronous
+interactions are not interrupted by loading indicators.
+
+
+Faster Initial Load Time
+Improved Performance
+Optimized Resource Usage
+
+
+Disadvantages:Complex Configuration,Initial Loading Delay
+
+
+
+ When do we and why do we need suspense ?
+React Suspense is a feature introduced in React to help
+manage asynchronous operations, such as data fetching and
+code splitting, in a more declarative and user-friendly manner.
+You need to use Suspense in your React application when you
+want to:
+
+Improve User Experience - Suspense helps in providing a better user experience by
+managing the loading state of asynchronous operations. Instead of showing
+loading spinners or handling loading states manually, Suspense allows you to
+specify fallback UI components to be displayed while data is being fetched or
+code is being loaded.
+
+Optimize Performance - Suspense, in combination with code splitting, can
+significantly improve the performance of your application. It allows you to load
+code and data only when it's needed, reducing the initial bundle size and making
+your application faster to load.
+
+Simplify Code - Suspense simplifies your code by providing a more declarative way
+to handle asynchronous operations. It reduces the need for complex state
+management and error handling for data fetching or code splitting.
+
