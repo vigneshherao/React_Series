@@ -296,3 +296,9 @@
     color: #555;
   }
   
+
+  .offer-label{
+    color: red;
+    z-index: 1; 
+    height: 20px;
+  }

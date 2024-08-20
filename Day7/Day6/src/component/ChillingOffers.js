@@ -1,5 +1,6 @@
 import React from "react";
-import Product from "./Product";
+import {Product} from "./Product";
+import { productOffer } from "./Product";
 
 const catObj = [
   {
@@ -12,6 +13,7 @@ const catObj = [
       "https://mcprod.sparindia.com/media/catalog/category/Ghee___Vanaspati.png",
     include_in_menu: 1,
     product_count: 27,
+    offer:true
   },
   {
     name: "Organic Food",
@@ -44,6 +46,7 @@ const catObj = [
       "https://mcprod.sparindia.com/media/catalog/category/Rice___Rice_Products.png",
     include_in_menu: 1,
     product_count: 146,
+    offer:true
   },
   {
     name: "Pulses",
@@ -64,6 +67,7 @@ const catObj = [
     image: "https://mcprod.sparindia.com/media/catalog/category/Dal.png",
     include_in_menu: 1,
     product_count: 33,
+    offer:true
   },
   {
     name: "Masala & Spices",
@@ -75,6 +79,7 @@ const catObj = [
       "https://mcprod.sparindia.com/media/catalog/category/Masala___Spices.png",
     include_in_menu: 1,
     product_count: 533,
+    offer:true
   },
   {
     name: "Salt / Sugar / Jaggery",
@@ -107,14 +112,17 @@ const catObj = [
     image: "https://mcprod.sparindia.com/media/catalog/category/Dry_Fruits.png",
     include_in_menu: 1,
     product_count: 203,
+    offer:true
   },
 ];
 
 const ChillingOffers = () => {
+
+  const ProductWithOffer = productOffer(Product);
   return (
     <div className="product-container">
       {catObj.map((porduct) => {
-        return <Product key={porduct.id} productDetail={porduct} />;
+        return porduct.offer ? <ProductWithOffer   key={porduct.id} productDetail={porduct} /> : <Product key={porduct.id} productDetail={porduct} />;
       })}
     </div>
   );

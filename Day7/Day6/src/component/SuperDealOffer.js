@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Product from "./Product";
+import {Product} from "./Product";
 import { catObj } from "../utils/constants";
 import { Link } from "react-router-dom";
 

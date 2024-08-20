@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 
-const Product = ({ productDetail }) => {
+export const Product = ({ productDetail }) => {
   const { name, image, price } = productDetail;
-
-  console.log(useState())
 
   return (
     <div className="product">
@@ -18,4 +16,14 @@ const Product = ({ productDetail }) => {
   );
 };
 
-export default Product;
+
+export const productOffer = (Product) => {
+  return (productDetail) => {
+    return (
+      <>
+        <label className="offer-label">Offer</label>
+        <Product  {...productDetail}/>
+      </>
+    );
+  };
+};
