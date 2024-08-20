@@ -1,0 +1,22 @@
+Explore all the ways of writing CSS.
+
+Using three ways Inline Internal External
+
+In Inline we will use <h2 style="color-red">fdads</h2>
+In internal -  <head>
+ <style>
+ body {background-color: powderblue;}
+ h1 {color: blue;}
+ p {color: red;}
+ </style>
+ </head>
+
+ In External using a Link
+
+
+Why do we have .postcssrc file?
+The  .postcssrc  file, often named postcss.config.js, is a
+configuration file for PostCSS. PostCSS is a tool for
+transforming styles with JavaScript plugins, and it is commonly
+used in conjunction with build tools like webpack or parcel for
+processing and optimizing CSS.
