@@ -1,4 +1,4 @@
-export const cardData = [
+export const cardDataJSON = [
     {
         name: "Ghee & Vanaspati",
         url_key: "ghee-vanaspati",
