@@ -99,3 +99,29 @@ export const cardDataJSON = [
         product_count: 147,
       },
 ]
+
+export const accordionData = {
+  title: "Frequently Asked Questions",
+  accordionItems: [
+    {
+      id: 1,
+      question: "What is your return policy?",
+      answer: "Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange."
+    },
+    {
+      id: 2,
+      question: "How do I track my order?",
+      answer: "Once your order is shipped, you will receive an email with a tracking number. You can use this number on our website to track your order."
+    },
+    {
+      id: 3,
+      question: "Do you ship internationally?",
+      answer: "Yes, we offer international shipping to many countries. Shipping fees and delivery times vary depending on the destination."
+    },
+    {
+      id: 4,
+      question: "Can I change or cancel my order?",
+      answer: "If you need to change or cancel your order, please contact us within 24 hours of placing the order. After this time, we cannot guarantee that changes can be made."
+    }
+  ]
+};
