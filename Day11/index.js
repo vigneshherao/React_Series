@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import HOC from "./components/HOC";
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 import Accord from "./components/Accord";
+import UserContext from "./utils/UserContext";
 
 const App = () => {
+  const [user, setUser] = useState("fksdajksdaj");
+
   return (
     <>
-      <Link to={"/accord"}>
-        <button>Accordian</button>
-      </Link>
-      <HOC />
+      <UserContext.Provider value={{ names: user }}>
+        <Link to={"/accord"}>
+          <button>Accordian</button>
+        </Link>
+        <HOC />
+      </UserContext.Provider>
     </>
   );
 };

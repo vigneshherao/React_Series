@@ -1,10 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Cards } from "./Cards";
 import { cardDataJSON } from "../utils/constant";
 import { CardWithOffer } from "./Cards";
+import UserContext from "../utils/UserContext";
 
 const HOC = () => {
+  const { names } = useContext(UserContext);
+
   const [cardData, setCardData] = useState([]);
+
+  const [username, setUsername] = useState("vinu");
 
   const HigherOrderCard = CardWithOffer(Cards);
 
@@ -14,11 +19,18 @@ const HOC = () => {
 
   return (
     <div className="flex">
-      <div>
-        {cardData.map((data) => (
-         data.offer? <HigherOrderCard key={data.id} info={data} /> :  <Cards key={data.id} info={data} />
-        ))}
-      </div>
+      <h2>{names}</h2>
+      <UserContext.Provider value={{ names: username, setUsername }}>
+        <div>
+          {cardData.map((data) =>
+            data.offer ? (
+              <HigherOrderCard key={data.id} info={data} />
+            ) : (
+              <Cards key={data.id} info={data} />
+            )
+          )}
+        </div>
+      </UserContext.Provider>
     </div>
   );
 };
