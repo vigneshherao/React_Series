@@ -1,0 +1,30 @@
+1.useContext vs Redux
+Both are called the global state variale used for avoiding the props drilling!
+
+2.Advantage of using Redux Toolkit over Redux
+
+
+
+3.Explain Dispatcher.
+Dispatching is can hook which give useDispatch when we have to change any state variale that time we should call the dispatch func
+
+
+● Explain Reducer.
+
+Reducer is a group of reducer from seprate sepreate slice
+
+
+
+● Explain slice.
+
+Slice is a one part of the store in Redux eg:userSLice
+
+● Explain selector.
+
+selector is used to subscribe the store from there we can acess the state from Redux
+
+● Explain createSlice and the configuration it takes.
+
+it will take name , inital staate, reducuer ( actions)
+
+

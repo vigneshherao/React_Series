@@ -1,0 +1,20 @@
+* What is prop drilling?
+
+
+Prop drilling is a scenario where we are are passing the props in nesting manner.That will make unused props in some component.
+while we passing the props in component and inside component. some component will not using the props so this is called props drilling!
+
+* What is lifting the state up?
+
+
+lifting the state up means if we have the parents who has some children with its states is controlled by the parents component!
+
+
+
+*What is Context Provider and Context Consumer?
+
+Context Provider is where we are passing the data to access from the all the component!
+
+
+*If you don’t pass a value to the provider does it take the default value?
+yes
